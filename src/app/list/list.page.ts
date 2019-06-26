@@ -11,7 +11,6 @@ export class ListPage implements OnInit {
     'paper-plane',
     'ios-add',
     'ios-alarm'
-
   ];
   public items: Array<{ title: string; note: string; icon: string }> = [];
   constructor() {
