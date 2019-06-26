@@ -9,7 +9,7 @@ export class ListPage implements OnInit {
   private selectedItem: any;
   private icons = [
     'paper-plane',
-    'ios-add',
+    'ios-add'
   ];
   public items: Array<{ title: string; note: string; icon: string }> = [];
   constructor() {
