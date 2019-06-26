@@ -10,7 +10,6 @@ export class ListPage implements OnInit {
   private icons = [
     'paper-plane',
     'ios-add',
-    'ios-alarm'
   ];
   public items: Array<{ title: string; note: string; icon: string }> = [];
   constructor() {
